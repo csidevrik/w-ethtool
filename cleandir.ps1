@@ -2,7 +2,7 @@
 
 param (
     [string]$Path = ".",
-    [string[]]$Excluidos = @(".gitignore", ".env", "README.md", "cleandir.ps1","cleandir-utf8.ps1")
+    [string[]]$Excluidos = @(".gitignore", ".env", "README.md", "cleandir.ps1","syncto-w-ethtool.ps1")
 )
 
 Write-Host " Limpiando contenido en: $Path"
