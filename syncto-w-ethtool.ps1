@@ -22,5 +22,6 @@ git commit -m "Sincronización desde prj-network"
 git push
 
 #5. Volver a la rama de trabajo
-Set-Location $origin
+.\comeback.ps1
+
 
